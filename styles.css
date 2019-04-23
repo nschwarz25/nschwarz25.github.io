@@ -1,0 +1,40 @@
+.container {
+    background: lightgray;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+.color1 {
+    padding: 75px;
+}
+
+.color2 {
+    background: lightgray;
+    padding: 20px;
+}
+
+.color3 {
+    background-color: white;
+    margin-left: 50px;
+}
+
+.card-body {
+    background-color: rgb(245, 223, 245);
+}
+
+.card1 {
+    padding: 5px;
+}
+
+h5 {
+    background-color: lightgray;
+    padding: 10px;
+    ;
+}
+
+.btn {
+    background-color: rgb(88, 3, 88);
+}
