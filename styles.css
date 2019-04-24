@@ -1,3 +1,7 @@
 .jumbotron{
-    background-image: url(nschwarz25.github.io/merritts.jpeg)
+    background-image: url(merritts.jpeg);
+}
+
+.navbar{
+    z-index: 1;
 }
