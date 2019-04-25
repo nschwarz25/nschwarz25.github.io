@@ -21,19 +21,26 @@
     <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- start container element -->
     <div class="container-fluid">
     
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light ">
+        <nav class="navbar fixed-top navbar-light ">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#!">Merrit's Store & Grill</a>
+            <div class="center">
+            <a class="navbar-brand" href="#!">
+              
+                <h1> Merrit's Store & Grill</h1>
+                </div>
+            </a>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -73,22 +80,35 @@
                   </div>
 <div class="title"><h1>Merritt's in the News</h1></div>
                   
-                  <div class="media">
-                   
-                        <div class="column">
-                          <img src="wral.jpg" alt="Snow" style="width:100%">
-                        </div>
-                        <div class="column">
-                          <img src="abc11.jpeg" alt="Forest" style="width:100%">
-                        </div>
-                        <div class="column">
-                          <img src="newso.jpg" alt="Mountains" style="width:100%">
-                        </div>
-                      </div>     
+<div class="row justify-content-around">
+    
+                  <div class="col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="wral.jpg" alt="Card image cap" >
+                        <div class="card-body"> Some more card content </div>
+                      </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="abc11.jpeg" alt="Card image cap" >
+                            <div class="card-body"> Some more card content </div>
+                          </div>
+                          </div>
+
+                          <div class="col-lg-3">
+                            <div class="card">
+                                <img class="card-img-top" src="newso.jpg" alt="Card image cap" >
+                                <div class="card-body"> Some more card content </div>
+                              </div>
+                      </div>
+                    
+                     
+    </div>    
                           
                       
           
-                              
+                         
                 
 
                       

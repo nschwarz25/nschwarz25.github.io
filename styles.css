@@ -1,12 +1,13 @@
 .jumbotron{
     padding: 0;
     margin: 0;
+        background-image: url(merritts.jpeg);
 }
 
 .navbar{
     z-index: 1;
-    background-color: #addcff;
-
+    background-color: rgb(176, 221, 255);
+    
 }
 
 .text{
@@ -15,15 +16,12 @@
     margin: 0;
 }
 
-.media{
-    display: flex;
-
-}
-
-.column {
-    flex: 33.33%;
-    padding: 5px;
-  }
 .title{
       text-align: center;s
+  }
+
+.center{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.25em
   }
