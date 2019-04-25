@@ -5,10 +5,25 @@
 
 .navbar{
     z-index: 1;
+    background-color: #addcff;
+
 }
 
-.card{
+.text{
     border: none;
     background-color: #F1F9FF ;
     margin: 0;
 }
+
+.media{
+    display: flex;
+
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+.title{
+      text-align: center;s
+  }
