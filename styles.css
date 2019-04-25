@@ -1,3 +1,11 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
 .jumbotron{
     padding: 0;
     margin: 0;
@@ -16,12 +24,3 @@
     margin: 0;
 }
 
-.title{
-      text-align: center;s
-  }
-
-.center{
-    text-align: center;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.25em
-  }
