@@ -1,5 +1,12 @@
-
+.jumbotron{
+    padding: 0;
+}
 
 .navbar{
     z-index: 1;
+}
+
+.card{
+    border: none;
+    background-color: lightblue;
 }
