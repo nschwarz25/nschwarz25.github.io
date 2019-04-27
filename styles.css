@@ -4,6 +4,12 @@
 
 h1{
     font-size: 3.5vw;
+    text-align: center
+}
+
+.row{
+    background-color: rgb(190, 226, 250);
+
 }
 .jumbotron{
     padding: 0;
