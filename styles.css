@@ -88,9 +88,9 @@ right: 0;
 
 }
 
-.card .a{
+.card-body{
     text-decoration: none;
-    color: ;
+    color: black;
 
 }
 
@@ -151,14 +151,14 @@ right: 0;
         border: none;
         background-color: rgb(255, 255, 255) ;
         margin: 0;
-        height: 145vh;
+        height: 120vh;
     }
 
     .text-text{
         position: absolute;
         left: 7%;
         right: 7%;
-        top: 14%;
+        top: 11%;
     }
     
     .text-title{ 
