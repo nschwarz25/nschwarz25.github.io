@@ -47,6 +47,7 @@ right: 0;
     right: 10%;
     top: 13%;
     line-height: 3em;
+    color: gray
 }
 
 .text-title{ 
@@ -56,13 +57,36 @@ right: 0;
     font-size: 2em;
     text-align: center;
 }
+.menu{
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+    text-align: center;
+    left: 0;
+    right: 0
+}
 
+.btn{
+    background-color: #86B6DA;
+    color: #ffffff;
+    border-color: white;
+}
 
-
+.btn:hover{
+    background-color: white;
+    color: #86B6DA;
+    
+}
 .row2{
     padding: 5;
 }
 
+.col-lg-4{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+
+}
 
 
 .sidenav {
@@ -120,16 +144,16 @@ right: 0;
 
     .text{
         border: none;
-        background-color: #F1F9FF ;
+        background-color: rgb(255, 255, 255) ;
         margin: 0;
-        height: 105vh;
+        height: 145vh;
     }
 
     .text-text{
         position: absolute;
         left: 7%;
         right: 7%;
-        top: 12%;
+        top: 14%;
     }
     
     .text-title{ 
